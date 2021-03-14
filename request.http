@@ -1,0 +1,13 @@
+GET http://localhost:8080/employee/find?name="OhoBoho2"
+
+###
+
+POST http://localhost:8080/employee/create
+Content-Type: application/json
+
+{
+  "name": "OhoBoho2",
+  "city": "Neverland",
+  "egn": "12414142214",
+  "status": true
+}
